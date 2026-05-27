@@ -1,8 +1,7 @@
-This repository contains the code of the implementation for my Bachelor's thesis,
-written at the [Chair of Computer Architecture and Parallel Systems](https://www.ce.cit.tum.de/en/caps/homepage/) at the Technical University of Munich (TUM).
+
 
 # SST MPI Buffer Load Tracer
-Custom component for the Structural Simulation Toolkit (SST) for tracing memory load accesses to MPI buffers,
+This repository contains a custom component for the Structural Simulation Toolkit (SST) for tracing memory load accesses to MPI buffers,
 generating traces comparable to the ones collected with [Mitos](https://github.com/caps-tum/mitos/tree/mpi-tracing) on real hardware.
 
 ## Installation
@@ -70,18 +69,14 @@ The SST simulation can be configured in two ways:
 > This is not required for the normal usage of the tracer and was only used for validating the tracer in my thesis (`src/cachelistener/perfCacheListener.cpp`)
 > or for testing whether it's possible to detect prefetches with the tracer (`src/cachelistener/tracerCacheListener.cpp`).
 
-## Citation [![DOI](https://zenodo.org/badge/1177712372.svg)](https://doi.org/10.5281/zenodo.18940825)
-This repository is archived using Zenodo to make it easier to cite the code in research and to ensure that the code is preserved in its current state, even if the GitHub repository is deleted or modified in the future.
-If you use this software or code in your research, you can cite it like this:
-```
-@software{Ewen_sst-mpi-buffer-tracer_2026,
-   author = {Ewen, Louis},
-   doi = {10.5281/zenodo.18940826},
-   license = {["MIT"]},
-   month = mar,
-   title = {{sst-mpi-buffer-tracer}},
-   url = {https://github.com/EweLo/sst-mpi-buffer-tracer/tree/v1.0.0},
-   version = {v1.0.0},
-   year = {2026}
-}
-```
+
+## About
+
+The basis of this repository has been created by Louis Ewen. The initial repository is available via GitHub [here](https://github.com/EweLo/sst-mpi-buffer-tracer). It has been archived using [Zendoo](https://doi.org/10.5281/zenodo.18940825).
+If you use this software or code in your research, please cite the above-mentioned repository or Zendoo artifact.
+
+This repository is managed by Stepan Vanecek and the Chair of Computer Architecture and Parallel Systems ([CAPS](https://www.ce.cit.tum.de/en/caps/homepage/)) at TU Munich. 
+Please reach out to us (via issue or email) if you have any questions, bug reports, or requests.
+
+This repository is available under the MIT license. (see [License](LICENSE))
+

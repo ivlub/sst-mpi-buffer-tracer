@@ -4,6 +4,8 @@
 This repository contains a custom component for the Structural Simulation Toolkit (SST) for tracing memory load accesses to MPI buffers,
 generating traces comparable to the ones collected with [Mitos](https://github.com/caps-tum/mitos/tree/mpi-tracing) on real hardware.
 
+The basis of this project was implemented by Louis Ewen in this [GitHub repository](https://github.com/EweLo/sst-mpi-buffer-tracer).
+
 ## Installation
 
 ### 1. Install SST
